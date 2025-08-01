@@ -1,0 +1,98 @@
+2025-07-26 09:51:54,843 - INFO - ====== WebDriver manager ======
+2025-07-26 09:51:56,489 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 09:51:56,876 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 09:51:57,177 - INFO - Driver [C:\Users\IAN\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-26 09:52:06,496 - INFO - Successfully initialized Chrome WebDriver
+2025-07-26 09:52:06,496 - INFO - Attempting to log in to LinkedIn...
+2025-07-26 09:52:27,733 - INFO - Successfully logged in to LinkedIn
+2025-07-26 09:52:27,735 - INFO - Navigating to Safaricom's LinkedIn page
+2025-07-26 09:52:45,548 - WARNING - No posts found
+2025-07-26 09:52:45,548 - WARNING - No posts to save
+2025-07-26 09:55:10,499 - INFO - ====== WebDriver manager ======
+2025-07-26 09:55:13,420 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 09:55:13,845 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 09:55:14,106 - INFO - Driver [C:\Users\IAN\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-26 09:55:19,045 - INFO - Successfully initialized Chrome WebDriver
+2025-07-26 09:55:19,046 - INFO - Attempting to log in to LinkedIn...
+2025-07-26 09:55:41,096 - INFO - Successfully logged in to LinkedIn
+2025-07-26 09:55:41,096 - INFO - Navigating to Safaricom's LinkedIn page
+2025-07-26 09:55:57,945 - WARNING - Posts container not found
+2025-07-26 09:55:57,945 - WARNING - No posts to save
+2025-07-26 10:00:35,550 - INFO - ====== WebDriver manager ======
+2025-07-26 10:00:39,572 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 10:00:39,941 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 10:00:40,176 - INFO - Driver [C:\Users\IAN\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-26 10:00:45,869 - INFO - Successfully initialized Chrome WebDriver
+2025-07-26 10:00:45,871 - INFO - Attempting to log in to LinkedIn...
+2025-07-26 10:01:07,068 - INFO - Successfully logged in to LinkedIn
+2025-07-26 10:01:07,068 - INFO - Navigating to Safaricom's LinkedIn page
+2025-07-26 10:01:24,359 - WARNING - Posts container not found
+2025-07-26 10:01:24,360 - WARNING - No posts to save
+2025-07-26 11:07:11,723 - INFO - ====== WebDriver manager ======
+2025-07-26 11:07:16,144 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 11:07:16,710 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 11:07:16,970 - INFO - Driver [C:\Users\IAN\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-26 11:07:27,119 - INFO - Successfully initialized Chrome WebDriver
+2025-07-26 11:07:27,119 - INFO - Attempting to log in to LinkedIn...
+2025-07-26 11:07:49,219 - INFO - Successfully logged in to LinkedIn
+2025-07-26 11:07:49,219 - INFO - Navigating to Safaricom's LinkedIn page
+2025-07-26 11:08:06,263 - WARNING - Posts container not found
+2025-07-26 11:08:06,265 - WARNING - No posts to save
+2025-07-26 11:08:43,337 - INFO - ====== WebDriver manager ======
+2025-07-26 11:08:45,781 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 11:08:46,125 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 11:08:46,369 - INFO - Driver [C:\Users\IAN\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-26 11:08:50,965 - INFO - Successfully initialized Chrome WebDriver
+2025-07-26 11:08:50,966 - INFO - ====== WebDriver manager ======
+2025-07-26 11:08:52,804 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 11:08:53,039 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 11:08:53,274 - INFO - Driver [C:\Users\IAN\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-26 11:08:56,111 - INFO - Successfully initialized Chrome WebDriver
+2025-07-26 11:08:56,129 - INFO - Attempting to log in to LinkedIn...
+2025-07-26 11:09:19,133 - INFO - Successfully logged in to LinkedIn
+2025-07-26 11:09:19,136 - INFO - Navigating to Safaricom's LinkedIn page
+2025-07-26 11:09:30,198 - INFO - Looking for any posts...
+2025-07-26 11:09:32,630 - WARNING - No elements found with any selector
+2025-07-26 11:10:21,013 - INFO - ====== WebDriver manager ======
+2025-07-26 11:10:23,330 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 11:10:23,614 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 11:10:23,848 - INFO - Driver [C:\Users\IAN\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-26 11:10:28,302 - INFO - Successfully initialized Chrome WebDriver
+2025-07-26 11:10:28,303 - INFO - ====== WebDriver manager ======
+2025-07-26 11:10:30,072 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 11:10:30,311 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-26 11:10:30,554 - INFO - Driver [C:\Users\IAN\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-26 11:10:32,355 - INFO - Successfully initialized Chrome WebDriver
+2025-07-26 11:10:32,355 - INFO - Attempting to log in to LinkedIn...
+2025-07-26 11:10:56,356 - INFO - Successfully logged in to LinkedIn
+2025-07-26 11:10:56,357 - INFO - Navigating to Safaricom's LinkedIn page
+2025-07-26 11:11:19,430 - ERROR - Could not find posts tab: Message: element not interactable
+  (Session info: chrome=138.0.7204.168); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x1281af3+62339]
+	GetHandleVerifier [0x0x1281b34+62404]
+	(No symbol) [0x0x10c1f80]
+	(No symbol) [0x0x110ba04]
+	(No symbol) [0x0x1100515]
+	(No symbol) [0x0x112f3bc]
+	(No symbol) [0x0x10fffa4]
+	(No symbol) [0x0x112f634]
+	(No symbol) [0x0x11507a3]
+	(No symbol) [0x0x112f1b6]
+	(No symbol) [0x0x10fe7a2]
+	(No symbol) [0x0x10ff644]
+	GetHandleVerifier [0x0x14f6683+2637587]
+	GetHandleVerifier [0x0x14f1a8a+2618138]
+	GetHandleVerifier [0x0x12a856a+220666]
+	GetHandleVerifier [0x0x1298998+156200]
+	GetHandleVerifier [0x0x129f12d+182717]
+	GetHandleVerifier [0x0x1289a38+94920]
+	GetHandleVerifier [0x0x1289bc2+95314]
+	GetHandleVerifier [0x0x1274d0a+9626]
+	BaseThreadInitThunk [0x0x75bcfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x77c782ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x77c7827e+238]
+
+2025-07-26 11:11:19,615 - INFO - Looking for any posts...
+2025-07-26 11:11:29,067 - WARNING - No elements found with any selector
+2025-07-26 11:11:29,219 - INFO - Saved page source to linkedin_page.html

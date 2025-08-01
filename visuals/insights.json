@@ -1,0 +1,23 @@
+{
+  "total_posts": 10,
+  "positive_ratio": 60.0,
+  "avg_engagement": 83.5,
+  "top_category": "Technology Adoption",
+  "highest_engagement": 100,
+  "sentiment_distribution": {
+    "positive": 6,
+    "negative": 4
+  },
+  "category_counts": {
+    "Environmental Impact": 1,
+    "Data Processing": 1,
+    "Workforce Impact": 1,
+    "Creative Industry": 1,
+    "Innovation Awards": 1,
+    "Education": 1,
+    "Infrastructure": 1,
+    "Financial Services": 1,
+    "Technology Adoption": 1,
+    "Acquisitions": 1
+  }
+}

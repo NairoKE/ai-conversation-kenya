@@ -1,0 +1,10 @@
+2025-07-26 09:34:26,423 - INFO - Successfully authenticated with Twitter API
+2025-07-26 09:34:28,423 - INFO - Collected 99 tweets for query: (AI OR "artificial intelligence") (Kenya OR Nairobi) -is:retweet
+2025-07-26 09:34:29,041 - WARNING - Rate limit exceeded. Sleeping for 902 seconds.
+2025-07-26 09:49:32,782 - INFO - Collected 87 tweets for query: "digital transformation" (Kenya OR Nairobi) -is:retweet
+2025-07-26 09:49:33,136 - WARNING - Rate limit exceeded. Sleeping for 902 seconds.
+2025-07-26 10:04:36,151 - WARNING - Rate limit exceeded. Sleeping for 903 seconds.
+2025-07-26 10:19:42,740 - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
+2025-07-26 10:34:44,329 - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
+2025-07-26 10:49:45,995 - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
+2025-07-26 11:04:47,517 - WARNING - Rate limit exceeded. Sleeping for 901 seconds.
