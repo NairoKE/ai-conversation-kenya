@@ -210,6 +210,112 @@
             transform: scale(1.05);
         }
 
+        .highlights-section {
+            margin: 3rem 0;
+        }
+
+        .tweets-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .tweet-card {
+            background: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 4px solid #667eea;
+        }
+
+        .tweet-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .tweet-card.positive {
+            border-left-color: #2ecc71;
+        }
+
+        .tweet-card.negative {
+            border-left-color: #e74c3c;
+        }
+
+        .tweet-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .tweet-header i {
+            color: #667eea;
+            font-size: 1.2rem;
+        }
+
+        .tweet-category {
+            font-weight: bold;
+            color: #333;
+            flex-grow: 1;
+        }
+
+        .engagement-badge {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        .tweet-text {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            font-style: italic;
+            border-left: 3px solid #f0f0f0;
+            padding-left: 1rem;
+        }
+
+        .tweet-metrics {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .sentiment {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            font-weight: bold;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .sentiment.positive {
+            background: rgba(46, 204, 113, 0.1);
+            color: #2ecc71;
+        }
+
+        .sentiment.negative {
+            background: rgba(231, 76, 60, 0.1);
+            color: #e74c3c;
+        }
+
+        .topic {
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
         .footer {
             background: rgba(0, 0, 0, 0.8);
             color: white;
@@ -339,10 +445,93 @@
             </div>
         </div>
 
+        <!-- Popular Posts Highlights -->
+        <div class="highlights-section">
+            <h2 class="section-title"><i class="fas fa-fire"></i> Popular AI Conversations</h2>
+            <div class="tweets-grid">
+                <div class="tweet-card positive">
+                    <div class="tweet-header">
+                        <i class="fas fa-trophy"></i>
+                        <span class="tweet-category">Technology Adoption</span>
+                        <span class="engagement-badge">100 engagement</span>
+                    </div>
+                    <p class="tweet-text">"Kenya has emerged as the world's number one user of ChatGPT, beating powerhouse economies and tech-savvy nations in a new global report..."</p>
+                    <div class="tweet-metrics">
+                        <span class="sentiment positive"><i class="fas fa-thumbs-up"></i> Positive</span>
+                        <span class="topic">Global Leadership</span>
+                    </div>
+                </div>
+
+                <div class="tweet-card positive">
+                    <div class="tweet-header">
+                        <i class="fas fa-award"></i>
+                        <span class="tweet-category">Innovation Awards</span>
+                        <span class="engagement-badge">92 engagement</span>
+                    </div>
+                    <p class="tweet-text">"Tanzanian entrepreneur Yvonne Baldwin has made history by winning two prestigious awards at the AI for Good Innovation Factory 2025..."</p>
+                    <div class="tweet-metrics">
+                        <span class="sentiment positive"><i class="fas fa-thumbs-up"></i> Positive</span>
+                        <span class="topic">African Innovation</span>
+                    </div>
+                </div>
+
+                <div class="tweet-card negative">
+                    <div class="tweet-header">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span class="tweet-category">Workforce Impact</span>
+                        <span class="engagement-badge">95 engagement</span>
+                    </div>
+                    <p class="tweet-text">"Recently, tech giant Microsoft announced the largest round of layoffs since 2023. Six thousand staff were asked to leave..."</p>
+                    <div class="tweet-metrics">
+                        <span class="sentiment negative"><i class="fas fa-thumbs-down"></i> Negative</span>
+                        <span class="topic">Job Displacement</span>
+                    </div>
+                </div>
+
+                <div class="tweet-card positive">
+                    <div class="tweet-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span class="tweet-category">Education</span>
+                        <span class="engagement-badge">78 engagement</span>
+                    </div>
+                    <p class="tweet-text">"Young Scientists Kenya (YSK) has trained 170 secondary school teachers in Artificial Intelligence..."</p>
+                    <div class="tweet-metrics">
+                        <span class="sentiment positive"><i class="fas fa-thumbs-up"></i> Positive</span>
+                        <span class="topic">Capacity Building</span>
+                    </div>
+                </div>
+
+                <div class="tweet-card positive">
+                    <div class="tweet-header">
+                        <i class="fas fa-handshake"></i>
+                        <span class="tweet-category">Infrastructure</span>
+                        <span class="engagement-badge">65 engagement</span>
+                    </div>
+                    <p class="tweet-text">"MTN Group has embarked on an exciting journey to leverage responsible Artificial Intelligence to reshape Africa..."</p>
+                    <div class="tweet-metrics">
+                        <span class="sentiment positive"><i class="fas fa-thumbs-up"></i> Positive</span>
+                        <span class="topic">Corporate Strategy</span>
+                    </div>
+                </div>
+
+                <div class="tweet-card negative">
+                    <div class="tweet-header">
+                        <i class="fas fa-leaf"></i>
+                        <span class="tweet-category">Environmental Impact</span>
+                        <span class="engagement-badge">85 engagement</span>
+                    </div>
+                    <p class="tweet-text">"The artificial intelligence industry is scrambling to reduce its massive energy consumption through better cooling systems..."</p>
+                    <div class="tweet-metrics">
+                        <span class="sentiment negative"><i class="fas fa-thumbs-down"></i> Negative</span>
+                        <span class="topic">Sustainability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Call to Action -->
         <div class="cta-section">
-            <h2 class="section-title"><i class="fas fa-rocket"></i> Ready to Dive Deeper?</h2>
-            <a href="#" class="cta-button"><i class="fas fa-download"></i> Download Full Report</a>
+            <h2 class="section-title"><i class="fas fa-rocket"></i> Explore the Full Analysis</h2>
             <a href="https://github.com/NairoKE" class="cta-button" target="_blank"><i class="fab fa-github"></i> GitHub Profile</a>
         </div>
     </div>
