@@ -36,5 +36,4 @@ wheels/
 data/*.csv
 !data/linkedin_template.csv
 
-# Generated visualizations
-visuals/*.png 
+# Note: PNG visualizations are now tracked in git for GitHub Pages 
