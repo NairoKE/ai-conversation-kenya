@@ -188,6 +188,60 @@
             border-radius: 10px;
         }
 
+        .methodology-section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 3rem;
+            border-radius: 20px;
+            margin: 2rem 0;
+            backdrop-filter: blur(10px);
+        }
+
+        .methodology-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .source-card {
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .source-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .source-card p {
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .methodology-stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .methodology-stats .stat {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
         .cta-section {
             text-align: center;
             padding: 3rem 0;
@@ -233,6 +287,43 @@
         .tweet-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .tweet-profile {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .profile-avatar {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .profile-name {
+            font-weight: bold;
+            color: #333;
+            font-size: 0.95rem;
+        }
+
+        .profile-handle {
+            color: #666;
+            font-size: 0.85rem;
         }
 
         .tweet-card.positive {
@@ -450,6 +541,13 @@
             <h2 class="section-title"><i class="fas fa-fire"></i> Popular AI Conversations</h2>
             <div class="tweets-grid">
                 <div class="tweet-card positive">
+                    <div class="tweet-profile">
+                        <div class="profile-avatar"><i class="fas fa-building"></i></div>
+                        <div class="profile-info">
+                            <span class="profile-name">Tech News Kenya</span>
+                            <span class="profile-handle">@technewske</span>
+                        </div>
+                    </div>
                     <div class="tweet-header">
                         <i class="fas fa-trophy"></i>
                         <span class="tweet-category">Technology Adoption</span>
@@ -524,6 +622,31 @@
                     <div class="tweet-metrics">
                         <span class="sentiment negative"><i class="fas fa-thumbs-down"></i> Negative</span>
                         <span class="topic">Sustainability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Sources & Methodology -->
+        <div class="methodology-section">
+            <h2 class="section-title"><i class="fas fa-database"></i> Data Sources & Methodology</h2>
+            <div class="methodology-content">
+                <div class="source-card">
+                    <h3><i class="fab fa-twitter"></i> Social Media Analysis</h3>
+                    <p>AI conversations were collected from public social media posts, focusing on Kenyan organizations, leaders, and AI-related discussions. Data includes engagement metrics, sentiment analysis, and topic categorization.</p>
+                    <div class="methodology-stats">
+                        <span class="stat"><i class="fas fa-comments"></i> 10 Conversations Analyzed</span>
+                        <span class="stat"><i class="fas fa-calendar"></i> January 2025 Data</span>
+                        <span class="stat"><i class="fas fa-globe-africa"></i> Kenya-Focused</span>
+                    </div>
+                </div>
+                <div class="source-card">
+                    <h3><i class="fas fa-brain"></i> Analysis Techniques</h3>
+                    <p>Advanced natural language processing and sentiment analysis were applied to understand the tone and themes in AI conversations. Engagement scores were calculated based on likes, shares, and comments.</p>
+                    <div class="methodology-stats">
+                        <span class="stat"><i class="fas fa-chart-pie"></i> Sentiment Analysis</span>
+                        <span class="stat"><i class="fas fa-tags"></i> Topic Modeling</span>
+                        <span class="stat"><i class="fas fa-chart-bar"></i> Engagement Scoring</span>
                     </div>
                 </div>
             </div>
